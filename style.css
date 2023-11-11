@@ -1,10 +1,20 @@
-CODIGO
 body {
-  font-family: sans-serif;
-  width: 100%;
-  text-transform:uppercase ;
-  background: #40576d;
-  background-size:cover;
-  padding: top 200px;;
+    font-family: sans-serif;
+    width: 100%;
+    text-transform:uppercase ;
+    background: #40576d;
+    background-size:cover;
+    padding: top 200px;;
+    background:url(889326.jpg);
+  
+  }
 
-}
+  .login-form {
+    width: 28%;
+    margin: 0 auto;
+    background: url(889326.jpg)no-repeat 0px 0px;
+    background-size:cover ;
+    background-position: center;
+    padding: 30px 33px 67px;
+    border-top: 8px solid rgba(0, 37, 204, 0.4);
+  }
