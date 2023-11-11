@@ -1,12 +1,13 @@
 body {
     font-family: sans-serif;
     width: 100%;
-    text-transform:uppercase ;
-    background: #40576d;
+    text-transform:uppercase ;  
     background-size:cover;
     padding: top 200px;;
     background:url(889326.jpg);
-  
+    background-position:center center;  
+    background-repeat: no repeat;
+    background-attachment: fixed;
   }
 
   .login-form {
@@ -17,4 +18,33 @@ body {
     background-position: center;
     padding: 30px 33px 67px;
     border-top: 8px solid rgba(0, 37, 204, 0.4);
+    box-shadow: 0px 32px  44px -21px rgba(0, 0, 0,0.72 );
   }
+   
+  h1 {    
+    
+    color:rgb(243, 250, 249);
+
+  }
+
+  form {
+
+    margin: 0 auto;
+
+  }
+
+  form p {
+    font-size: 16px;
+    margin: top 42px; ;
+    padding: 0.3px;
+    color: #670000;
+
+  }   
+
+   input[type="submit"]{
+   background: #0ffd1b;
+  }
+
+
+
+    
