@@ -48,7 +48,3 @@ input[type="text"],input[type="number"]{
 a {
   color:rgb(187, 18, 18);
 }
-@key flames-animl{
-  0%{left:-100%}
-  50%,100%{left:100%}
-}
