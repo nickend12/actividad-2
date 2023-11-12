@@ -30,6 +30,7 @@ body {
 
    input[type="submit"]{
    background: rgb(15, 225, 253);
+   animation: btn animl 1s linear infinite;
   }
 input[type="text"],input[type="number"]{
   background: #0fbafd; 
@@ -46,4 +47,8 @@ input[type="text"],input[type="number"]{
     
 a {
   color:rgb(187, 18, 18);
+}
+@key flames-animl{
+  0%{left:-100%}
+  50%,100%{left:100%}
 }
