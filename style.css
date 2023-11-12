@@ -1,14 +1,14 @@
 body {
-    font-family: sans-serif;
-    width: 100%;
-    text-transform:uppercase ;  
-    background-size:cover;
-    padding: top 200px;;
-    background:url(889326.jpg);
-    background-position:center center;  
-    background-repeat: no repeat;
-    background-attachment: fixed;
-  }
+  font-family: 'Permanent Marker', cursive; 
+  width: 100%;
+  text-transform:uppercase ;  
+  background-size:cover;
+  padding: top 200px;;
+  background:url(889326.jpg);
+  background-position:center center;  
+  background-repeat: no repeat;
+  background-attachment: fixed;
+}
 
   .login-form {
     width: 28%;
@@ -17,34 +17,33 @@ body {
     background-size:cover ;
     background-position: center;
     padding: 30px 33px 67px;
-    border-top: 8px solid rgba(0, 37, 204, 0.4);
+    border-top: 8px solid rgba(0, 1, 7, 0.4);
     box-shadow: 0px 32px  44px -21px rgba(0, 0, 0,0.72 );
-  }
+  } 
+  
    
   h1 {    
     
-    color:rgb(243, 250, 249);
-
-  }
-
-  form {
-
-    margin: 0 auto;
-
-  }
-
-  form p {
-    font-size: 16px;
-    margin: top 42px; ;
-    padding: 0.3px;
-    color: #670000;
+    color:rgb(187, 18, 18);
 
   }   
 
    input[type="submit"]{
-   background: #0ffd1b;
+   background: rgb(15, 225, 253);
   }
+input[type="text"],input[type="number"]{
+  background: #0fbafd; 
+  
+}
 
-
-
+ p {
+  
+  color: rgb(187, 18, 18);
+  background-position: center;
+  background: #0fbafd;width: 90px; ;
+  
+}
     
+a {
+  color:rgb(187, 18, 18);
+}
